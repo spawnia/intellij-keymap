@@ -1,0 +1,5 @@
+<keymap version="1" name="Spawnia" parent="$default">
+    <action id="Git.Branches">
+        <keyboard-shortcut first-keystroke="ctrl shift #10000b4" />
+    </action>
+</keymap>

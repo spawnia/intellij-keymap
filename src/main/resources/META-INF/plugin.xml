@@ -1,0 +1,24 @@
+<idea-plugin>
+    <id>spawnia.intellij-keymap</id>
+    <name>Spawnia Keymap</name>
+    <vendor email="benedikt@franke.tech" url="https://franke.tech">Benedikt Franke</vendor>
+
+    <description><![CDATA[
+    The preferred keymap of Benedikt Franke<br/>
+    <br/>
+    This allows me to share my preferred keybindings between all Intellij IDE's.
+    ]]></description>
+
+    <change-notes><![CDATA[
+    <h1>Initial release</h1>
+    This is the initial release of this Keymap and more of a POC.
+    ]]></change-notes>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <bundledKeymap file="Spawnia.xml" />
+    </extensions>
+
+    <actions />
+</idea-plugin>
