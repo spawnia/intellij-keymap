@@ -1,5 +1,36 @@
 <keymap version="1" name="Spawnia" parent="$default">
+    <!-- Replacements to work with German keyboard layout-->
     <action id="Git.Branches">
-        <keyboard-shortcut first-keystroke="ctrl shift #10000b4" />
+        <keyboard-shortcut first-keystroke="ctrl shift #10000b4"/>
+    </action>
+
+    <action id="CommentByLineComment">
+        <keyboard-shortcut first-keystroke="ctrl divide"/>
+        <keyboard-shortcut first-keystroke="ctrl 7"/>
+    </action>
+    <action id="GotoBookmark7"/>
+
+    <action id="CommentByBlockComment">
+        <keyboard-shortcut first-keystroke="shift ctrl divide"/>
+        <keyboard-shortcut first-keystroke="shift ctrl 7"/>
+    </action>
+    <action id="ToggleBookmark7"/>
+
+    <!-- Tool windows -->
+    <action id="ActivateCommitToolWindow">
+        <keyboard-shortcut first-keystroke="alt 2"/>
+    </action>
+    <action id="ActivateTerminalToolWindow">
+        <keyboard-shortcut first-keystroke="alt 3"/>
+    </action>
+    <action id="ActivateFavoritesToolWindow"/>
+    <action id="AddToFavoritesPopup"/>
+
+    <!-- Avoid collision with locking KDE -->
+    <action id="ReformatCode">
+        <keyboard-shortcut first-keystroke="alt f"/>
+    </action>
+    <action id="ShowReformatFileDialog">
+        <keyboard-shortcut first-keystroke="shift alt f"/>
     </action>
 </keymap>
