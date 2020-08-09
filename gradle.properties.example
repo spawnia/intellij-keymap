@@ -1,3 +1,3 @@
 kotlin.code.style=official
 org.gradle.jvmargs=-Xmx2g
-intellijPublishToken=<Get from https://hub.jetbrains.com/users/31fccd72-3b7f-4a44-a7df-e356e6939d1e?tab=authentification>
+intellijPublishToken=<Get from https://hub.jetbrains.com (Login with GitHub -> Profile -> Authentication>

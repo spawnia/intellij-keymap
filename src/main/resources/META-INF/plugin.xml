@@ -10,8 +10,7 @@
     ]]></description>
 
     <change-notes><![CDATA[
-    <h1>Initial release</h1>
-    This is the initial release of this Keymap and more of a POC.
+    In this version, I figured out how to ensure compatibility with multiple Intellij platform versions.
     ]]></change-notes>
 
     <depends>com.intellij.modules.platform</depends>
