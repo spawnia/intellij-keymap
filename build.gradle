@@ -6,7 +6,7 @@ plugins {
 }
 
 group 'spawnia'
-version '4.1'
+version '4.2'
 
 repositories {
     mavenCentral()
@@ -28,11 +28,11 @@ patchPluginXml {
 }
 
 compileKotlin {
-    kotlinOptions.jvmTarget = "1.8"
+    kotlinOptions.jvmTarget = "11"
 }
 
 compileTestKotlin {
-    kotlinOptions.jvmTarget = "1.8"
+    kotlinOptions.jvmTarget = "11"
 }
 
 publishPlugin {
