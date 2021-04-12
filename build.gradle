@@ -7,7 +7,7 @@ plugins {
 }
 
 group 'spawnia'
-version '4.4'
+version '4.0'
 
 repositories {
     mavenCentral()
