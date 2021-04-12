@@ -2,11 +2,12 @@ plugins {
     // https://plugins.gradle.org/plugin/org.jetbrains.intellij
     id 'org.jetbrains.intellij' version '0.7.2'
     // https://plugins.gradle.org/plugin/org.jetbrains.kotlin.jvm
-    id 'org.jetbrains.kotlin.jvm' version '1.4.32'
+    // Version selected due to https://youtrack.jetbrains.com/issue/KT-39668#focus=Comments-27-4586052.0-0
+    id 'org.jetbrains.kotlin.jvm' version '1.3.72'
 }
 
 group 'spawnia'
-version '4.3'
+version '4.4'
 
 repositories {
     mavenCentral()
