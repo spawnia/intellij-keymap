@@ -35,6 +35,10 @@ compileTestKotlin {
     kotlinOptions.jvmTarget = "11"
 }
 
+runPluginVerifier {
+    ideVersions "2021.1"
+}
+
 publishPlugin {
     token intellijPublishToken
 }
