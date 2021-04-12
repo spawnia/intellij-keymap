@@ -10,7 +10,7 @@
     ]]></description>
 
     <change-notes><![CDATA[
-    In this version, I figured out how to ensure compatibility with multiple Intellij platform versions.
+    Adds compatibility with Intellij Platform 2021.1
     ]]></change-notes>
 
     <depends>com.intellij.modules.platform</depends>
