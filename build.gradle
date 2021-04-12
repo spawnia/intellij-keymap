@@ -6,7 +6,7 @@ plugins {
 }
 
 group 'spawnia'
-version '4.2'
+version '4.3'
 
 repositories {
     mavenCentral()
@@ -23,7 +23,7 @@ intellij {
 
 // https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html#intellij-platform-based-products-of-recent-ide-versions
 patchPluginXml {
-    sinceBuild "202"
+    sinceBuild "211"
     untilBuild "211.*"
 }
 
