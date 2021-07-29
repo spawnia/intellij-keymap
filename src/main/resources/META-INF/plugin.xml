@@ -3,6 +3,8 @@
     <name>Spawnia Keymap</name>
     <vendor email="benedikt@franke.tech" url="https://franke.tech">Benedikt Franke</vendor>
 
+    <depends>com.intellij.modules.platform</depends>
+
     <description><![CDATA[
     The preferred Intellij IDE keymap of Benedikt Franke
 
@@ -14,10 +16,8 @@
     ]]></description>
 
     <change-notes><![CDATA[
-    Adds compatibility with Intellij Platform 2021.1
+    Adds compatibility with Intellij Platform 2021.2
     ]]></change-notes>
-
-    <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
         <bundledKeymap file="Spawnia.xml" />
