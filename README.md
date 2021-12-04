@@ -18,6 +18,8 @@ Bump the version in [build.gradle](build.gradle.kts) and run:
 
     gradle publishPlugin
 
+To ensure compatibility with new Intellij platform releases, bump the version at: https://plugins.jetbrains.com/plugin/14127-spawnia-keymap/version
+
 ## Docs
 
 https://github.com/JetBrains/intellij-platform-plugin-template
