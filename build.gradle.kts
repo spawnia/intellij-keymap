@@ -17,7 +17,7 @@ intellij {
 tasks {
     // https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html#intellij-platform-based-products-of-recent-ide-versions
     patchPluginXml {
-        version.set("4.3")
+        version.set("4.4")
         sinceBuild.set("211")
     }
 

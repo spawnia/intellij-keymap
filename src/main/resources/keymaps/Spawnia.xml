@@ -20,11 +20,13 @@
     <action id="ActivateCommitToolWindow">
         <keyboard-shortcut first-keystroke="alt 0"/>
     </action>
+    <action id="ActivateFavoritesToolWindow"/>
+    <action id="AddToFavoritesPopup"/>
+
     <action id="ActivateTerminalToolWindow">
         <keyboard-shortcut first-keystroke="alt 2"/>
     </action>
-    <action id="ActivateFavoritesToolWindow"/>
-    <action id="AddToFavoritesPopup"/>
+    <action id="ActivateBookmarksToolWindow"/>
 
     <!-- Avoid collision with locking KDE -->
     <action id="ReformatCode">
