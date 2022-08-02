@@ -14,7 +14,7 @@ I will probably delete it once Jetbrains provides a working and supported way of
 
 ## Publish
 
-Bump the version in [build.gradle](build.gradle.kts) and run:
+Bump the version in [build.gradle.kts](build.gradle.kts) and run:
 
     gradle publishPlugin
 
