@@ -18,7 +18,8 @@ Bump the version in [build.gradle](build.gradle.kts) and run:
 
     gradle publishPlugin
 
-To ensure compatibility with new Intellij platform releases, bump the version at: https://plugins.jetbrains.com/plugin/14127-spawnia-keymap/version
+To ensure compatibility with new Intellij platform releases, bump the version at https://plugins.jetbrains.com/plugin/14127-spawnia-keymap/version
+to allow the latest branch number from https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html#intellij-platform-based-products-of-recent-ide-versions.
 
 ## Docs
 
