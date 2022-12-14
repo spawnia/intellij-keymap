@@ -16,7 +16,7 @@
     ]]></description>
 
     <change-notes><![CDATA[
-    Adds compatibility with Intellij Platform 2022.2
+    Adds compatibility with Intellij Platform 2022.3
     ]]></change-notes>
 
     <extensions defaultExtensionNs="com.intellij">
