@@ -1,21 +1,21 @@
 plugins {
     // https://plugins.gradle.org/plugin/org.jetbrains.intellij
-    id("org.jetbrains.intellij") version "1.10.1"
+    id("org.jetbrains.intellij") version "1.13.3"
 }
 
 repositories {
     mavenCentral()
 }
 
-// https://github.com/JetBrains/gradle-intellij-plugin#intellij-platform-properties
+// https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html#intellij-platform-based-products-of-recent-ide-versions
 intellij {
-    version.set("2022.3")
+    version.set("2023.1")
 }
 
 tasks {
     // https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html#intellij-platform-based-products-of-recent-ide-versions
     patchPluginXml {
-        version.set("4.7")
+        version.set("4.8")
         sinceBuild.set("211")
     }
 
