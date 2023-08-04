@@ -2,7 +2,7 @@
 
 The preferred Intellij IDE keymap of Benedikt Franke
 
-This plugin is essentially a workaround for https://youtrack.jetbrains.com/issue/IDEA-181599,
+This plugin is essentially a workaround for https://youtrack.jetbrains.com/issue/IDEA-184607/Can-not-share-custom-keymap-configuration,
 allowing me to share my preferred keymap across multiple Intellij based IDEs on multiple devices.
 It is designed for my personal use and thus does not include documentation.
 
