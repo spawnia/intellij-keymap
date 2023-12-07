@@ -8,16 +8,14 @@
     <description><![CDATA[
     The preferred Intellij IDE keymap of Benedikt Franke
 
-    This plugin is essentially a workaround for https://youtrack.jetbrains.com/issue/IDEA-181599,
-    allowing me to share my preferred keymap across multiple Intellij based IDEs on multiple devices.
+    This plugin is essentially a workaround, allowing me to share my preferred keymap across multiple Intellij based IDEs on multiple devices.
+    See:
+    - https://youtrack.jetbrains.com/issue/IDEA-184607/Can-not-share-custom-keymap-configuration
+    - https://youtrack.jetbrains.com/issue/IDEA-181599
     It is designed for my personal use and thus does not include documentation.
 
     I will probably delete it once Jetbrains provides a working and supported way of sharing keymaps.
     ]]></description>
-
-    <change-notes><![CDATA[
-    Adds compatibility with Intellij Platform 2022.3
-    ]]></change-notes>
 
     <extensions defaultExtensionNs="com.intellij">
         <bundledKeymap file="Spawnia.xml" />
