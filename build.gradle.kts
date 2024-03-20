@@ -1,6 +1,6 @@
 plugins {
     // https://plugins.gradle.org/plugin/org.jetbrains.intellij
-    id("org.jetbrains.intellij") version "1.16.1"
+    id("org.jetbrains.intellij") version "1.17.2"
 }
 
 repositories {
@@ -15,8 +15,9 @@ intellij {
 tasks {
     // https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html#platformVersions
     patchPluginXml {
-        version.set("4.10")
+        version.set("4.11")
         sinceBuild.set("233")
+        untilBuild.set("241")
     }
 
     publishPlugin {
